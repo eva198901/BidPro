@@ -6,7 +6,18 @@ export default defineNuxtConfig({
   nitro: {
     preset: 'netlify'
   },
-  modules: ['@nuxtjs/tailwindcss'],
+  modules: [
+    '@nuxtjs/tailwindcss',
+    ['nuxt-gtag', {
+      id: 'G-XXXXXXXXXX', // 請替換為您的 Google Analytics GA4 測量 ID
+      config: {
+        page_title: true,
+        anonymize_ip: true,
+        send_page_view: true
+      },
+      debug: process.env.NODE_ENV !== 'production' // 在開發模式下啟用調試
+    }]
+  ],
   css: ['~/assets/css/main.css'],
   postcss: {
     plugins: {
