@@ -16,6 +16,7 @@
     "vue-router": "^4.5.0"
   },
   "devDependencies": {
+    "@nuxtjs/sitemap": "^7.2.10",
     "@nuxtjs/tailwindcss": "6.11.4",
     "autoprefixer": "10.4.17",
     "postcss": "8.4.35",

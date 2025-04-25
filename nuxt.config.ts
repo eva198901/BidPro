@@ -8,6 +8,11 @@ export default defineNuxtConfig({
   },
   modules: [
     '@nuxtjs/tailwindcss',
+    ['@nuxtjs/sitemap', {
+      siteUrl: 'https://strong-elf-17e67e.netlify.app',
+      exclude: ['/admin/**'],
+      dynamicUrlsApiEndpoint: '/__sitemap-urls'
+    }],
     ['nuxt-gtag', {
       id: 'G-99EPRPNRC6', // Google Analytics GA4 測量 ID
       config: {

@@ -1,2 +1,4 @@
 User-Agent: *
 Disallow:
+
+Sitemap: https://strong-elf-17e67e.netlify.app/sitemap.xml
