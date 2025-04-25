@@ -9,7 +9,7 @@ export default defineNuxtConfig({
   modules: [
     '@nuxtjs/tailwindcss',
     ['nuxt-gtag', {
-      id: 'G-XXXXXXXXXX', // 請替換為您的 Google Analytics GA4 測量 ID
+      id: 'G-99EPRPNRC6', // Google Analytics GA4 測量 ID
       config: {
         page_title: true,
         anonymize_ip: true,
