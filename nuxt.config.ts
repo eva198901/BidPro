@@ -2,8 +2,10 @@
 export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
   devtools: { enabled: true },
-  ssr: false,
-  target: 'static',
+  ssr: true,
+  nitro: {
+    preset: 'netlify'
+  },
   modules: ['@nuxtjs/tailwindcss'],
   css: ['~/assets/css/main.css'],
   postcss: {
@@ -18,7 +20,7 @@ export default defineNuxtConfig({
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-        { hid: 'description', name: 'description', content: '提供最即時、最精準的法拍屋資訊，結合專業知識與實用工具，讓您輕鬆掌握法拍市場動態。' }
+        { name: 'description', content: '提供最即時、最精準的法拍屋資訊，結合專業知識與實用工具，讓您輕鬆掌握法拍市場動態。' }
       ],
       link: [
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
