@@ -4,7 +4,7 @@
     <section class="bg-primary text-white py-20">
       <div class="container mx-auto px-4">
         <div class="max-w-3xl mx-auto text-center">
-          <h1 class="text-4xl md:text-5xl font-bold mb-6">精準鎖定好標的，安心代標零煩惱</h1>
+          <h1 class="text-4xl md:text-5xl font-bold mb-6">精準鎖定好標的，安心代標零煩惱！</h1>
           <p class="text-lg md:text-xl mb-8">
             每週精選熱門案件、行情比較、風險提醒，從找案、代標到產權處理，專治各種法拍疑難雜症，陪你一路交屋無煩惱。
           </p>
