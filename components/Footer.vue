@@ -14,7 +14,7 @@
         </div>
         
         <!-- Links -->
-        <div>
+        <div class="hidden md:block">
           <h3 class="text-lg font-semibold mb-4">網站導覽</h3>
           <ul class="space-y-2">
             <li><NuxtLink to="/" class="text-gray-300 hover:text-accent transition">首頁</NuxtLink></li>

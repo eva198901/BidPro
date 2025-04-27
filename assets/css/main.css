@@ -9,4 +9,16 @@
   body {
     @apply bg-background;
   }
+  
+  /* 頁面標題響應式大小 */
+  h1.page-title {
+    @apply text-2xl font-bold text-primary mb-2;
+    @apply sm:text-3xl;
+  }
+  
+  /* 頁面副標題響應式大小 */
+  .page-subtitle {
+    @apply text-sm text-gray-600;
+    @apply sm:text-base;
+  }
 } 
